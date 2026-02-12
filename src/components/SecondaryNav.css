@@ -1,0 +1,38 @@
+.secondary-nav {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  position: sticky;
+  top: 60px; /* Below TopBar */
+  z-index: 900;
+}
+
+.secondary-nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.secondary-nav-link {
+  text-decoration: none;
+  color: #282c34;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.secondary-nav-link:hover {
+  color: #61dafb;
+}
+
+@media (max-width: 600px) {
+  .secondary-nav-list {
+    gap: 15px;
+  }
+  .secondary-nav-link {
+    font-size: 0.9rem;
+  }
+}
