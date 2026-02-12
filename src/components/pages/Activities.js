@@ -7,6 +7,7 @@ import rainforestImg from '../../assets/rainforest-exploration.jpg';
 import beachImg from '../../assets/beaches-&-snorkeling.jpg';
 import entertainmentImg from '../../assets/merriton-landing-entertainment.jpg';
 import fishingImg from '../../assets/fishing-&-boat-tours.jpg';
+import campingImg from '../../assets/camping.jpg';
 
 const Activities = () => {
   const sightSeeingItems = [
@@ -30,6 +31,13 @@ const Activities = () => {
       description: 'Enjoy both sandy and rocky beaches encircling Yellow Leaf Bay. Perfect for swimming and snorkeling.',
       buttonText: 'Beach Guide',
       onButtonClick: () => alert('Opening beach guide...')
+    },
+    {
+      title: 'Camping & Hiking',
+      image: campingImg,
+      description: 'Lace up for scenic hikes through Taniti’s rainforest, coastal paths, and volcanic foothills — then unwind under the stars at regulated beachfront and jungle campgrounds.',
+      buttonText: 'Plan Adventure',
+      onButtonClick: () => alert('Planning your camping & hiking adventure...')
     }
   ];
 
